@@ -145,3 +145,7 @@ div {
   border-radius: 6px;
   color: rgb(44, 147, 0);
 }
+.about-us-p {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
