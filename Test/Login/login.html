@@ -10,16 +10,32 @@
         </script>
     </head>
     <body>
-                <div class="github-signin-container">
-                    <button class="github-signin-btn" onClick={handleGithubLogin}>
-                      <img
-                        src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
-                        alt="GitHub Icon"
-                        class="github-icon"
-                      />
-                      Sign in with GitHub
-                    </button>
-                  </div>
+        <div class="login_form">
+            <div class="github-signin-container">
+                <button class="github-signin-btn" onClick={handleGithubLogin}>
+                  <img
+                    src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+                    alt="GitHub Icon"
+                    class="github-icon"
+                  />
+                  Sign in with GitHub
+                </button>
+              </div>
+            <form action="#">
+                <h3>Log in to Lettuce Game Studios</h3>
+                <div class="input_box">
+                    <label for="username">Username</label>
+                    <input type="email" id="email" placeholder="Enter a Username" required />
+                </div>
+                <div class="input_box">
+                    <div class="password_title">
+                        <label for="password">Password</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <input type="password" id="password" placeholder="Enter your password" required />
+                </div>
+                <button type="submit">Log In</button>
+                <p class="sign_up">Don't have an account? <a href="#">Sign Up </a></p>
             </form>
         </div>
     </body>
