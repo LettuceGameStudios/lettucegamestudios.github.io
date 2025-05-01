@@ -2,14 +2,14 @@
     <head>
         <title>Log In to Lettuce Game Studios</title>
         <link rel="stylesheet" href="login.css"></link>
+    </head>
+    <body>
         <script>
             const handleGithubLogin = () => {
   const githubAuthUrl = `https://github.com/login/oauth/authorize?client_id=${Ov23liNaFUVSQIhKwG8N}&redirect_uri=${lettucegamestudios.github.io/Test/mainpage.html}&scope=read:user`;
   window.location.href = githubAuthUrl;
 };
         </script>
-    </head>
-    <body>
         <div class="login_form">
             <div class="github-signin-container">
                 <button class="github-signin-btn" onClick={handleGithubLogin}>
