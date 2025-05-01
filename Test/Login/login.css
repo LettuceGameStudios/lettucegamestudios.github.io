@@ -170,14 +170,3 @@ form .input_box label {
     box-sizing: border-box;
     color: white;
   }
-  input[type=username], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    background-color: black;
-    border: 2px solid #002707;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: white;
-  }
