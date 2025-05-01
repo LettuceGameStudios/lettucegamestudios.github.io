@@ -2,11 +2,36 @@
     <head>
         <title>Lettuce Game Studios</title>
         <link rel="stylesheet" href="mainpage.css">
+        <link rel="icon" type="image/x-icon" href="icon.png">
+        <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
     </head>
     <body>
-        <a id="menubuttons" href="about-us.html">About Us</a>
-        <center><a href="mainpage.html"><img src="favicon.png"></img></a></center>
-        <p><center>Lettuce Game Studios Testing</center></p>
-        <center><img src="lgs-logo-bg.png" style="width:100%;"></img></center>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="about-us.html">📑 About Us</a>
+            <a href="about-us.html">🎮 Games</a>
+            <a href="/Test/Login/login.html">Log In</a>
+        </div>
+        <div class="container">
+            <a href="mainpage.html"><img src="favicon.png" class="toplogo"></img></a>
+            <a id="menubuttons" class="dropdown" onclick="openNav()">≡</a>
+            <img src="lgs-logo-bg.png" class="logobg"></img>
+            <center><div class="h1butcentred"><h1 class="h1rainbow"><b>New game studio that knows what to do.</b></h1></div></center>
+            <center><div class="h3butcentred"><h3>We are attempting to create unique games that every age can enjoy.</h3></div></center>
+            <center><div class="buttonbutcentred"><a href="learn-more.html" class="button-a"><b>Learn More</b></a></div></center>
+        </div>
+        <div class="container">
+            <center><h2 style="color: white;">Our Games</h2></center>
+        </div>
     </body>
 </html>
